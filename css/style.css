@@ -76,7 +76,7 @@ ul{
 nav ul li{
     font-size: 150%;
     display: inline-block;
-    float: left;
+    /* float: left */;
     padding: 10px;
 }
 nav ul li a {
