@@ -14,9 +14,9 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 <body>
-    <div class="wrapper">
+    <div id="wrapper">
         <!-- banner -->
-        <div class="banner-wrapper">
+        <div id="banner-wrapper">
             <header>
                 <div class="header-inner">
                     <a href="#" id="logo">
@@ -28,19 +28,19 @@
                         </a>
                         <ul>
                             <li>
-                                <a href="index.html">inicio</a>
+                                <a href="index.html" class="current">Inicio</a>
                             </li>
                             <li>
                                 <a href="#skills">Habilidades</a>
                             </li>
                             <li>
-                                <a href="#">Portafolio</a>
+                                <a href="#portfolio">Portafolio</a>
                             </li>
                             <li>
-                                <a href="#">Servicios</a>
+                                <a href="#services">Servicios</a>
                             </li>
                             <li>
-                                <a href="#">Contacto</a>
+                                <a href="mailto:luis55guat@hotmail.com" target="_blank">Contacto</a>
                             </li>
                         </ul>
                     </nav>
@@ -76,6 +76,16 @@
         <h3>Desarrollo Web</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aut eos nihil a ducimus quasi, exercitationem minus dolor non velit numquam, suscipit aliquam odio, enim accusamus quaerat inventore dicta aliquid fuga doloribus? Architecto nostrum nesciunt eius sunt nisi aspernatur magnam fugit autem, culpa exercitationem, quia incidunt necessitatibus accusantium quod facere?</p>
     </section>
+    <div class="clearfix-padding"></div>
+    <!-- portfolio -->
+    <section class="left-col" id="portfolio">
+        <h3>Portfolio</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolore repellat, corrupti excepturi natus, eveniet officia quis nostrum, delectus est magni autem. Minus voluptatibus eveniet nemo autem nesciunt laboriosam vero voluptatum, esse veritatis temporibus, nostrum ratione debitis sed inventore quos laudantium obcaecati nobis in praesentium itaque id unde vitae illo?</p>
+    </section>
+    <section class="sidebar">
+        <img src="img/pics/Logo-Velez.jpg" alt="Logo-Velez">
+    </section>
+    <div class="clearfix-padding"></div>
     <!-- servicios -->
     <div class="one-third-padding" id="services">
         <h3>Nuestros Servicios uno</h3>
@@ -96,7 +106,7 @@
         <div class="banner-wrapper">
             <div class="icon-text">
                 <div class="icon-text-icon">
-                    <ul>
+                    <ul class="footer-nav">
                         <li>
                             <a href="index.html">inicio</a>
                         </li>
@@ -104,18 +114,18 @@
                             <a href="#skills">Habilidades</a>
                         </li>
                         <li>
-                            <a href="#">portafolio</a>
+                            <a href="#portfolio">portafolio</a>
                         </li>
                         <li>
-                            <a href="#">Nuestro Equipo</a>
+                            <a href="#services">Nuestro Equipo</a>
                         </li>
                         <li>
-                            <a href="#">Contacto</a>
+                            <a href="mailto:luis55guat@hotmail.com" target="_blank">Contacto</a>
                         </li>
                     </ul>
                 </div>
                 <div class="icon-text-text">
-                    <ul>
+                    <ul class="social">
                         <li>
                             <a href="mailto:luis55guat@hotmail.com" target="_blank">
                                 <i class="fa fa-envelope-o"></i>
@@ -151,8 +161,8 @@
             </div>
         </div>
     </footer>
-    <footer class="second-footer">
-        <p>&copy; <a href="https://www.facebook.com/correo.diaz" target="_blank"> Luis Velez</a></p>
+    <footer class="footer-second">
+        <p>&copy; <a href="https://www.facebook.com/correo.diaz" target="_blank">Velez Design - ベレスデザイン</a></p>
     </footer>
     <!-- scripts -->
     <script>
